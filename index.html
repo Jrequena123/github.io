@@ -5,47 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultoría Logística</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h2 class="logo">LogistiPro</h2>
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#casos">Casos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- HERO -->
-    <header class="hero">
+    <header id="hero" class="hero">
         <div class="hero-content">
-            <h1>Soluciones Logísticas y Operativas a la Medida</h1>
-            <p>Automatización, KPIs y optimización para hacer tu empresa más eficiente.</p>
+            <h1>Soluciones Logísticas y Optimización de Procesos</h1>
+            <p>Transformamos tu operación con automatización, análisis de datos y soluciones hechas a medida.</p>
             <a href="#servicios" class="btn">Ver Servicios</a>
         </div>
     </header>
 
     <!-- SERVICIOS -->
     <section id="servicios" class="section">
-        <h2>Nuestros Servicios</h2>
+        <h2 class="section-title">Nuestros Servicios</h2>
         <div class="cards">
 
             <div class="card">
                 <h3>Asesoría Logística</h3>
-                <p>Diagnóstico y optimización de la cadena de suministro y operaciones.</p>
+                <p>Diagnóstico completo y optimización de tu cadena de suministro.</p>
             </div>
 
             <div class="card">
                 <h3>Soluciones Personalizadas</h3>
-                <p>Implementación de sistemas y herramientas adaptadas a tu negocio.</p>
+                <p>Implementación de software y herramientas adaptadas a tu negocio.</p>
             </div>
 
             <div class="card">
                 <h3>Desarrollo a Medida</h3>
-                <p>Aplicaciones y software creado según tus procesos internos.</p>
+                <p>Aplicaciones internas, sistemas de control y automatizaciones.</p>
             </div>
 
             <div class="card">
-                <h3>Indicadores KPI</h3>
-                <p>Dashboards, métricas y control avanzado de productividad.</p>
+                <h3>KPIs y Analítica</h3>
+                <p>Dashboards profesionales para tomar decisiones basadas en datos.</p>
             </div>
 
             <div class="card">
                 <h3>Automatización</h3>
-                <p>Eliminación de tareas manuales mediante RPA y flujos digitales.</p>
+                <p>Reducción de tareas manuales mediante RPA y procesos inteligentes.</p>
             </div>
 
         </div>
@@ -53,36 +70,38 @@
 
     <!-- SOBRE NOSOTROS -->
     <section id="nosotros" class="section bg-light">
-        <h2>Sobre Nosotros</h2>
-        <p>Somos especialistas en logística, automatización y optimización operativa. 
-           Combinamos tecnología y análisis de datos para impulsar negocios a su máximo rendimiento.</p>
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <p class="text-large">
+            Somos expertos en logística, automatización y desarrollo de soluciones operativas.
+            Ayudamos a empresas a mejorar su eficiencia con tecnología, KPIs y mejora continua.
+        </p>
     </section>
 
     <!-- CASOS DE ÉXITO -->
     <section id="casos" class="section">
-        <h2>Casos de Éxito</h2>
+        <h2 class="section-title">Casos de Éxito</h2>
 
         <div class="cards">
             <div class="card">
                 <h3>Distribuidora Nacional</h3>
-                <p>Reducción de costos del 22% y mejora del 18% en tiempos de entrega.</p>
+                <p>22% menos costos operativos y 18% mejora en tiempos de entrega.</p>
             </div>
 
             <div class="card">
                 <h3>Cadena Retail</h3>
-                <p>Dashboard KPI en tiempo real. +15% productividad.</p>
+                <p>Dashboard KPI +15% productividad y control total en tiempo real.</p>
             </div>
 
             <div class="card">
                 <h3>Automatización Administrativa</h3>
-                <p>Reducción del 60% en tareas manuales y errores casi nulos.</p>
+                <p>60% reducción de tareas manuales y eliminación de errores.</p>
             </div>
         </div>
     </section>
 
     <!-- CONTACTO -->
     <section id="contacto" class="section bg-light">
-        <h2>Contacto</h2>
+        <h2 class="section-title">Contacto</h2>
         <form class="form">
             <input type="text" placeholder="Nombre" required>
             <input type="email" placeholder="Correo" required>
@@ -93,7 +112,7 @@
     </section>
 
     <footer>
-        <p>© 2025 Consultoría Logística – Todos los derechos reservados</p>
+        <p>© 2025 LogistiPro – Consultoría Logística y Automatización</p>
     </footer>
 
 </body>
